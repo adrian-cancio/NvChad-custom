@@ -5,8 +5,8 @@ local plugins = {
             -- Check `:Mason` to show names
             ensure_installed = {
                 "semgrep", "clang-format", "autoflake", "debugpy", "html-lsp",
-                "jdtls", "prettier", "python-lsp-server",
-                "tailwindcss-language-server"
+                "jdtls", "luacheck", "luaformatter", "prettier",
+                "python-lsp-server", "tailwindcss-language-server"
             }
         }
     }, {
