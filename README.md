@@ -1,7 +1,7 @@
 # NvChad-config
 
 ## Introduction
-This repository contains my custom modifications for [NvChad](https://github.com/NvChad/NvChad) a base configuration for [Neovim](https://github.com/neovim/neovim).
+This repository contains my custom modifications for [NvChad](https://github.com/NvChad/NvChad), a base configuration for [Neovim](https://github.com/neovim/neovim).
 The current repository is meant to be inside NvChad, It's path should be `./lua/custom` where `custom` is this repository.
 
 ## Repository tree
@@ -15,4 +15,4 @@ The current repository is meant to be inside NvChad, It's path should be `./lua/
 ```
 
 ## Coming soon
-In deep explain of all modifications.
+In deep explaining of all modifications.
