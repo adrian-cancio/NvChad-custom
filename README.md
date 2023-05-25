@@ -1,4 +1,4 @@
-# NvChad-config
+# NvChad-custom
 
 ## Introduction
 This repository contains my custom modifications for [NvChad](https://github.com/NvChad/NvChad), a base configuration for [Neovim](https://github.com/neovim/neovim).
