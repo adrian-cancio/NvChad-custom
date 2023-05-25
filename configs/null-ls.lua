@@ -3,15 +3,16 @@ local null_ls = require "null-ls"
 
 local formatting = null_ls.builtins.formatting
 local lint = null_ls.builtins.diagnostics
+local code_actions = null_ls.builtins.code_actions
 
 -- builtin names:
 -- https://github.com/jose-elias-alvarez/null-ls.nvim/blob/main/doc/BUILTINS.md
 local sources = {
-
-    -- formatting
     formatting.prettier, formatting.autoflake, formatting.clang_format,
-    formatting.lua_format, -- Lint
-    lint.semgrep, lint.luacheck
+    formatting.lua_format, 
+    formatting.beautysh, -- Formatting
+    lint.semgrep, lint.luacheck, -- Lint
+    code_actions.shellcheck, -- Code actions
 }
 
 local augroup = vim.api.nvim_create_augroup("LspFormatting", {})

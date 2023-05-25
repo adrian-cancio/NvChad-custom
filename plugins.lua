@@ -4,9 +4,9 @@ local plugins = {
         opts = {
             -- Check `:Mason` to show names
             ensure_installed = {
-                "semgrep", "clang-format", "autoflake", "debugpy", "html-lsp",
+                "autoflake", "bash-language-server", "beautysh", "semgrep", "clang-format", "debugpy", "html-lsp",
                 "jdtls", "luacheck", "luaformatter", "prettier",
-                "python-lsp-server", "tailwindcss-language-server"
+                "python-lsp-server", "shellcheck", "tailwindcss-language-server"
             }
         }
     }, {
@@ -16,7 +16,7 @@ local plugins = {
             -- https://github.com/nvim-treesitter/nvim-treesitter#supported-languages
             ensure_installed = {
                 "java", "python", "javascript", "html", "css", "haskell",
-                "markdown"
+                "markdown", "bash"
             }
         }
 
